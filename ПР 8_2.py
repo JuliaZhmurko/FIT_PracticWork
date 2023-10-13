@@ -1,0 +1,11 @@
+print("Enter rows")
+#s=input()
+s="Кількість унікальних символв що присутні в обох рядках"
+print(s)
+mylist = s.split(" ")
+#print(mylist)
+word = max(mylist, key=len)
+maxIx=mylist.index(word)
+#print(word)
+#print(len(word))
+print("Найдовшим словом є : %r , з довжиною : %i" %(mylist[maxIx],len(word)))
