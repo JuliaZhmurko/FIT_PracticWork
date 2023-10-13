@@ -1,5 +1,6 @@
 print("Enter rows")
-s=input()
+#s=input()
+s="Кількість унікальних символв що присутні в обох рядках"
 print(s)
 mylist = s.split(" ")
 #print(mylist)
